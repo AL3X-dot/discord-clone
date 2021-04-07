@@ -1,0 +1,109 @@
+.sidebar {
+    flex: 0.25;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #2f3135;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: 700;
+    color: white;
+    border-bottom: 3px solid #26282c;
+}
+
+.channels {
+    flex: 1;
+}
+
+.channel_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: gray;
+    /* background-color: #2f3135; */
+}
+
+.ch_he {
+    display: flex;
+    justify-content: center;
+}
+
+.add_channel {
+    cursor: pointer;
+    transition: 0.002 color ease-in-out;
+}
+
+.add_channel:hover {
+    color: white;
+}
+
+.voice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: gray;
+    background-color: #2f3135;
+    border-top: 1px solid gray;
+}
+
+.signal_icon {
+    color: #4fb185;
+}
+
+.voice_info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.voice_info h3 {
+    color: #4fb185;
+}
+
+.voice_info p {
+    font-size: 12px;
+}
+
+.voice_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voice_icons .MuiSvgIcon-root {
+    padding: 10px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: gray;
+    background-color: #2f3135;
+    border-top: 1px solid gray;
+}
+
+.profile_icons {
+    display: flex;
+    align-items: center;
+}
+
+.profile_icons .MuiSvgIcon-root {
+    padding: 10px;
+}
+
+.profile_info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.profile_info h3 {
+    color: white;
+}
